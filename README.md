@@ -3,14 +3,18 @@ What is 3GPPDecoder?
 
 ![3GPPDecoder Linux Build](/3gpp-decoder-linux.png?raw=true "3GPPDecoder Linux Build")
 
+3GPPDecoder is a free open source decoder to decode wireless messages and PDUs(Protocol Data Units). The program currently supports Windows and Linux.
+
+You can use 3GPPDecoder Linux to decode 3GPP LTE, UMTS and GSM messages for RRC and NAS. It also supports RLC (Radio Link Control) protocol PDU header decoding.
+
+[3GPP Decoder Home Page](http://www.3glteinfo.com/3gpp-decoder/)
 
 ## How to get pre-compiled x86 binary
 
-You can download the 3GPPDecoder Linux installer from this repo.
+You can download the 3GPPDecoder Linux installer from this repo:
 
 [https://raw.githubusercontent.com/sickcodes/3gpp-decoder-linux/master/3GPPDecoder](https://raw.githubusercontent.com/sickcodes/3gpp-decoder-linux/master/3GPPDecoder)
 
-[3GPP Decoder Home Page](http://www.3glteinfo.com/3gpp-decoder/)
 
 ## How to use 3GPP Decoder on Linux
 
@@ -43,14 +47,9 @@ In the QTCreator, press
 
 Or select `Build` -> `Run` from the menu bar.
 
-3GPPDecoder is a free open source decoder to decode wireless messages and PDUs(Protocol Data Units). The program currently supports Windows and Linux.
-
-You can use 3GPPDecoder Linux to decode 3GPP LTE, UMTS and GSM messages for RRC and NAS. It also supports RLC (Radio Link Control) protocol PDU header decoding.
 
 ## How to build 3GPPDecoder
 
 To develop 3GPPDecoder you need `qtcreator`.
 
 To build the decoder program, open the `3gpp-decoder.pro` in `qtcreator`.
-
-
