@@ -127,7 +127,7 @@ void MainWindow::readfile(){
     }    
     file.close();
 
-    system("del decode_output_temp.txt");
+    system("rm decode_output_temp.txt");
 }
 
 void MainWindow::on_radioButtonGsm_toggled(bool checked)
@@ -141,8 +141,8 @@ void MainWindow::on_radioButtonGsm_toggled(bool checked)
          strProtocols.append("LLC");
          strProtocols.append("NAS");
          strProtocols.append("RR");
-         strProtocols.append("RR_dl_with_pseudolength");
-         strProtocols.append("RR_ul_with_pseudolength");
+         strProtocols.append("GSM_A_CCCH");
+         strProtocols.append("GSM_A_SACCH");
          strProtocols.append("SNDCP");
          strProtocols.append("SNDCPXID");
          ui->comboBoxProtocol->addItems(strProtocols);     
